@@ -1,22 +1,21 @@
 import React from "react";
 
 const styles = {
-  border: "2px solid Red",
-  background: "lightgreen",
+  border: "2px solid GREEN",
+  background: "#95f092",
+  color: "RED",
+  fontFamily: "Verdana",
   width: "100px",
   height: "100px",
   textAlign: "center",
   fontSize: "60px",
   lineHeight: "100px",
-  cursor: "pointer",
 };
 const Sqaure = ({ value, onClick }) => {
   return (
-    <>
-      <div style={styles} onClick={onClick}>
-        {value}
-      </div>
-    </>
+    <div style={styles} onClick={onClick}>
+      {value}
+    </div>
   );
 };
 
